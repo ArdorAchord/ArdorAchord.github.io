@@ -1,0 +1,61 @@
+
+.red-text {
+	color: #333;
+}
+.pos{
+	margin-top: 80px;
+	margin-left: 895px;
+}
+h2 {
+	font-family: Lobster, Monospace;
+	font-size: 24px;
+}
+p {
+	font-size: 16px;
+	font-family: Monospace;
+}
+
+.thick-green-border {
+	border-color: #333;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+.smaller-image {
+	margin-top: 40px;
+	margin-left: 850px;
+	overflow: hidden;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+li {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
