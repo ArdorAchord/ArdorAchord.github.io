@@ -118,8 +118,8 @@ nav ul {
     position: absolute;
     top: 8vh;
     background: white;
-    width: 16%;
-    margin-left: -6%;
+    width: 13%;
+    margin-left: -5%;
     z-index: -99999;
     opacity: 0;
     -webkit-transition: 0.2s;
@@ -253,5 +253,5 @@ nav .fa {
 }
 
 .rest {
-    width: 73%;
+    width: 35%;
 }
