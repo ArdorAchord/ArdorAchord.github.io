@@ -52,21 +52,18 @@ p {
 nav {
     z-index: 99999;
     position: fixed;
-    height: 15vh;
+    height: 8vh;
     line-height: 15vh;
     width: 100%;
     font-size: 1.3em;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    background: rgba(255, 255, 255, .95);
+    background: #333;
     box-shadow: 0 0 10px #4b4b4b;
     -webkit-transition: .5s;
     transition: .5s;
 }
 
-nav img {
-    margin-top: 1vh;
-}
 
 nav .rest {
     text-align: right;
@@ -76,20 +73,6 @@ nav:hover {
     background: rgba(255, 255, 255, 1);
 }
 
-nav img {
-    height: 13vh;
-    width: auto;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-}
-
-nav img:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: 0.2s;   
-    transition: 0.2s;
-}
 
 nav .text-menu {
     display: -webkit-box;
@@ -133,10 +116,10 @@ nav a:hover+ul, nav a+ul:hover {
 nav ul {
     visibility: hidden;
     position: absolute;
-    top: 15vh;
+    top: 8vh;
     background: white;
-    width: 20%;
-    margin-left: -3%;
+    width: 16%;
+    margin-left: -6%;
     z-index: -99999;
     opacity: 0;
     -webkit-transition: 0.2s;
@@ -221,7 +204,7 @@ nav .fa {
         position: absolute;
         top: -85vh;
         left: 0;
-        background: white;
+        background: #333;
         width: 100%;
         height: 85vh;
         text-align: center;
@@ -261,7 +244,7 @@ nav .fa {
 
 .quarter, .rest {
     text-align: left;
-    line-height: 15vh;
+    line-height: 8vh;
     float:left;
 }
 
